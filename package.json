@@ -1,28 +1,35 @@
 {
-	"name": "boilerplate-project-messagebaord",
-	"version": "0.0.1",
-	"description": "InfoSec project for freeCodeCamp",
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"dependencies": {
-		"body-parser": "^1.15.2",
-		"chai": "^4.2.0",
-		"chai-http": "^3.0.0",
-		"cors": "^2.8.1",
-		"dotenv": "^8.2.0",
-		"express": "^4.14.0",
-		"helmet": "^3.1.0",
-		"mocha": "^3.2.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-project-messageboard"
-	},
-	"keywords": [
-		"node",
-		"express"
-	],
-	"license": "MIT"
+  "name": "acorn-globals",
+  "version": "6.0.0",
+  "description": "Detect global variables in JavaScript using acorn",
+  "keywords": [
+    "ast",
+    "variable",
+    "name",
+    "lexical",
+    "scope",
+    "local",
+    "global",
+    "implicit"
+  ],
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "acorn": "^7.1.1",
+    "acorn-walk": "^7.1.1"
+  },
+  "devDependencies": {
+    "testit": "^3.1.0"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/acorn-globals.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT"
 }
